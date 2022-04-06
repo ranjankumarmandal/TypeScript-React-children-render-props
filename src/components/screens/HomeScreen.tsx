@@ -2,6 +2,7 @@ import React from 'react';
 import Counter from '../re-usable-components/Counter';
 import ClickCounter from '../utils/ClickCounter';
 import HoverCounter from '../utils/HoverCounter';
+import KeyUpCounter from '../utils/KeyUpCounter';
 
 const HomeScreen = () => {
   return (
