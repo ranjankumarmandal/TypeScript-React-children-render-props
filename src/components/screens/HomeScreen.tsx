@@ -19,6 +19,12 @@ const HomeScreen = () => {
           <HoverCounter count={count} increamentCounter={increamentCount} />
         )}
       />
+
+      <Counter
+        render={(count, increamentCount) => (
+          <KeyUpCounter count={count} increamentCounter={increamentCount} />
+        )}
+      />
     </div>
   );
 };
