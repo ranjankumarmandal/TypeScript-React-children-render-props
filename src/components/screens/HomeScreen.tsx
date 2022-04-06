@@ -3,6 +3,7 @@ import Counter from '../re-usable-components/Counter';
 import ClickCounter from '../utils/ClickCounter';
 import HoverCounter from '../utils/HoverCounter';
 import KeyUpCounter from '../utils/KeyUpCounter';
+import { Link } from 'react-router-dom';
 
 const HomeScreen = () => {
   return (
@@ -25,6 +26,12 @@ const HomeScreen = () => {
           <KeyUpCounter count={count} increamentCounter={increamentCount} />
         )}
       />
+      <br />
+      <br />
+
+      <Link to='/about'>
+        <button>About</button>
+      </Link>
     </div>
   );
 };
