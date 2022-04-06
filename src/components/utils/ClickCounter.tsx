@@ -6,7 +6,13 @@ interface Props {
 }
 
 const ClickCounter = (props: Props) => {
-  return <div>ClickCounter</div>;
+  return (
+    <div>
+      <button onClick={props.increamentCounter}>
+        Click Increamentor: {props.count}
+      </button>
+    </div>
+  );
 };
 
 export default ClickCounter;
