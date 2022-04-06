@@ -1,6 +1,7 @@
 import React from 'react';
+import { Props } from './ClickCounter';
 
-const KeyUpCounter = () => {
+const KeyUpCounter = (props: Props) => {
   return <div>KeyUpCounter</div>;
 };
 
